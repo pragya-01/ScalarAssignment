@@ -1,0 +1,18 @@
+.dropdown-menu {
+    position: absolute;
+    transform: translateY(4px);
+    width: 100%;
+    border: 1px solidn #ccc;
+    border-radius: 5px;
+    overflow: auto;
+    max-height: 150px;
+}
+
+.dropdown-item {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.dropdown-item:hover {
+    background-color: #9fc3f870;
+}
